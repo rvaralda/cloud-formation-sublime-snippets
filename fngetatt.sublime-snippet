@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::GetAtt" : [ "logicalNameOfResource", "attributeName" ]
+]]></content>
+	<tabTrigger>fngetatt</tabTrigger>
+	<scope>source.json</scope>
+	<description>fngetatt</description>
+</snippet>

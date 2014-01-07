@@ -1,0 +1,54 @@
+<snippet>
+	<content><![CDATA[
+	"config" : {
+		"packages" : {
+			"apt|msi|python|rpm|rubygems|yum" : {
+				"package1" : [],
+				"package2" : [ "1.0.0" ]
+				},
+		},
+		"sources" : {
+			"/etc/myapp" : "https://s3.amazonaws.com/mybucket/myapp.tar.gz"
+		},
+		"commands" : {
+			"test" : {
+				"command" : "echo \"$MAGIC\" > test.txt",
+				"env" : { "MAGIC" : "I come from the environment!" },
+				"cwd" : "~",
+				"test" : "test ! -e ~/test.txt",
+				"ignoreErrors" : "true|false"
+			}
+		},
+		"files" : {
+			"/tmp/test9.txt" : {
+				"content" : "Content for {{name}}",	
+				"context" : { "name" : "test9" }
+			}
+		},
+		"services" : {
+			"sysvinit|windows" : "service" : {
+				"enabled" : "true|false",
+				"ensureRunning" : "true|false",
+				"files" : ["/etc/service/service.conf"],
+				"sources" : ["/var/service"],
+				"packages" : { "apt|msi|python|rpm|rubygems|yum" : ["pkg1", "pkg2"] }
+			}
+		},
+		"users" : {
+			"myUser" : {
+				"groups" : ["groupOne", "groupTwo"],
+				"uid" : "50",
+				"homeDir" : "/home/myuser"
+			}
+		},
+		"groups" : {
+			"groupOne" : {},
+			"groupTwo" : { "gid" : "45" }
+		}
+	}
+}
+]]></content>
+	<tabTrigger>cfinit</tabTrigger>
+	<scope>source.json</scope>
+	<description>{</description>
+</snippet>

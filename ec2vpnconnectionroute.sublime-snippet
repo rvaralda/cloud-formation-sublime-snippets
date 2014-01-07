@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"ConnectionRoute" : {
+	"Properties" : {
+		"DestinationCidrBlock" : "String"
+		"VpnConnectionId" : "String",
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpnconnectionroute</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPNConnectionRoute</description>
+</snippet>

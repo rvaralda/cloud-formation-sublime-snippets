@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+"SNSTopic" : {
+	"DisplayName" : "String",
+	"Subscription" : [ SNS Subscription, ... ],
+	"TopicName" : "String"
+}
+]]></content>
+	<tabTrigger>snstopic</tabTrigger>
+	<scope>source.json</scope>
+	<description>snstopic</description>
+</snippet>

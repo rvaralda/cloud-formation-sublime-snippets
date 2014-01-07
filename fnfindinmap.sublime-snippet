@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::FindInMap" : [ "MapName", "TopLevelKey", "SecondLevelKey"]
+]]></content>
+	<tabTrigger>fnfindinmap</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnfindinmap</description>
+</snippet>

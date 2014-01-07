@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+{
+	"AWSTemplateFormatVersion" : "version date",
+	"Description" : "Valid JSON strings up to 4K",
+	"Parameters" : {
+		set of parameters
+	},
+	"Mappings" : {
+		set of mappings
+	},
+	"Conditions" : {
+		set of conditions
+	},
+	"Resources" : {
+		set of resources
+	},
+	"Outputs" : {
+		set of outputs
+	}
+}
+]]></content>
+	<tabTrigger>awstemplate</tabTrigger>
+	<scope>source.json</scope>
+	<description>awstemplate</description>
+</snippet>

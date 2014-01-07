@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"IAMUser" : {
+	"Properties": {
+		"Path": "String",
+		"Groups": [ Group, ... ],
+		"LoginProfile": { "Password" : "String" },
+		"Policies": [ Embedded IAM Policies ]
+	}
+}
+]]></content>
+	<tabTrigger>iamuser</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::User</description>
+</snippet>

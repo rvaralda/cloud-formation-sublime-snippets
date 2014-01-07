@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"IPAssoc" : {
+	"Properties": {
+		"AllocationId": "String",
+		"EIP": "String",
+		"InstanceId": "String",
+		"NetworkInterfaceId": "String",
+		"PrivateIpAddress": "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2ipassoc</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::EIPAssociation</description>
+</snippet>

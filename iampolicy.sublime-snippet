@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"IAMPolicy" : {
+	"Properties": {
+		"Groups" : [ "String", ... ],
+		"PolicyDocument" : JSON,
+		"PolicyName" : "String",
+		"Roles" : [ "String", ... ],
+		"Users" : [ "String", ... ]
+	}
+}
+]]></content>
+	<tabTrigger>iampolicy</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::Policy</description>
+</snippet>

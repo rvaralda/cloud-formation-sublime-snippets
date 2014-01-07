@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"NetworkInterfaceAttachment" : {
+	"Properties" : {
+		"DeleteOnTermination": Boolean,
+		"DeviceIndex": "String",
+		"InstanceId": "String",
+		"NetworkInterfaceId": "String",
+	}
+}
+]]></content>
+	<tabTrigger>ec2networkinterfaceattachment</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::NetworkInterfaceAttachment</description>
+</snippet>

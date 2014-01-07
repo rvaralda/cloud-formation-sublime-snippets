@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::Select" : [ index, listOfObjects ]
+]]></content>
+	<tabTrigger>fnselect</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnselect</description>
+</snippet>

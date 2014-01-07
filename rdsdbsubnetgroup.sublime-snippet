@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"DBSubnetGroup" : {
+	"Properties" : {
+		"DBSubnetGroupDescription" : "String",
+		"SubnetIds" : [ "String", ... ],
+		"Tags" : [ Resource Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>rdsdbsubnetgroup</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::RDS::DBSubnetGroup</description>
+</snippet>

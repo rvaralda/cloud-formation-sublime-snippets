@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+"WaitHandle" : {
+	"Properties" : {
+	}
+}
+]]></content>
+	<tabTrigger>cfwaithandle</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::CloudFormation::WaitConditionHandle</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"CFStack" : {
+	"Properties" : {
+		"TemplateURL" : "String",
+		"TimeoutInMinutes" : "String",
+		"Parameters" : { CloudFormation Stack Parameters Property Type }
+	}
+}
+]]></content>
+	<tabTrigger>cfstack</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::CloudFormation::Stack</description>
+</snippet>

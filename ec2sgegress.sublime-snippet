@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"SGEgress": {
+	"Properties": {
+		"CidrIp" : "String",
+		"DestinationSecurityGroupId" : "String",
+		"FromPort" : Number,
+		"GroupId" : "String",
+		"IpProtocol" : "String",
+		"ToPort" : Number
+	}
+}
+]]></content>
+	<tabTrigger>ec2sgegress</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::SecurityGroupEgress</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"S3BucketPolicy" : {
+	"Properties" : {
+		"PolicyDocument" : { JSON },
+	},
+	"Bucket" : { "Ref" : "mybucket" }
+}
+]]></content>
+	<tabTrigger>s3bucketpolicy</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::S3::BucketPolicy</description>
+</snippet>

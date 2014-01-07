@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"VPNGatewayRouteProp" : {
+	"Properties" : {
+		"RouteTableIds" : [ "String", ... ],
+		"VpnGatewayId" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpngatewayrouteprop</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPNGatewayRoutePropagation</description>
+</snippet>

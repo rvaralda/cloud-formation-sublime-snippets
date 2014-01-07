@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"SubnetNetworkAclAssociation" : {
+	"Properties" : {
+		"SubnetId" : { "String" }
+		"NetworkAclId" : { "String" }
+	}
+}
+]]></content>
+	<tabTrigger>ec2subnetnetworkaclassociation</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::SubnetNetworkAclAssociation</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"ScalingPolicy" : {
+	"Properties" : {
+		"AdjustmentType" : "String",
+		"AutoScalingGroupName" : "String",
+		"Cooldown" : "String",
+		"ScalingAdjustment" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>aspolicy</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::AutoScaling::ScalingPolicy</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"WaitCondition" : {
+	"Properties" : {
+		"Count" : "String",
+		"Handle" : "String",
+		"Timeout" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>cfwaitcondition</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::CloudFormation::WaitCondition</description>
+</snippet>

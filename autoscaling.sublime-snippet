@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+"AutoScalingGroup" : {
+	"Properties" : {
+		"AvailabilityZones" : [ "String", ... ],
+		"Cooldown" : "String",
+		"DesiredCapacity" : "String",
+		"HealthCheckGracePeriod" : Integer,
+		"HealthCheckType" : "String",
+		"LaunchConfigurationName" : "String",
+		"LoadBalancerNames" : [ "String", ... ],
+		"MaxSize" : "String",
+		"MinSize" : "String",
+		"NotificationConfiguration" : NotificationConfiguration,
+		"Tags" : [ Auto Scaling Tag, ..., ],
+		"TerminationPolicies" : [ "String", ..., ],
+		"VPCZoneIdentifier" : [ "String", ... ]
+	}
+}
+]]></content>
+	<tabTrigger>autoscaling</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::AutoScaling::AutoScalingGroup</description>
+</snippet>

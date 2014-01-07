@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"InstanceSecurityGroup" : {
+	"Properties" :
+	{
+		"GroupDescription" : "String",
+		"SecurityGroupEgress" : [ Security Group Rule, ... ],
+		"SecurityGroupIngress" : [ Security Group Rule, ... ],
+		"VpcId" : "String",
+		"Tags" : [ Resource Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2securitygroup</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::SecurityGroup</description>
+</snippet>

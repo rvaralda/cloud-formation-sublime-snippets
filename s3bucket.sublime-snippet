@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"S3Bucket" : {
+	"Properties" : {
+		"AccessControl" : "String",
+		"BucketName" : "String",
+		"Tags" : [ Resource Tag, ... ],
+		"WebsiteConfiguration" : Website Configuration Type
+	}
+}
+]]></content>
+	<tabTrigger>s3bucket</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::S3::Bucket</description>
+</snippet>

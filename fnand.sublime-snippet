@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::And": [{condition}, {...}]
+]]></content>
+	<tabTrigger>fnand</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnand</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"AccessKey" : {
+	"Properties": {
+		"Serial": Integer,
+		"Status": "String",
+		"UserName": "String"
+	}
+}
+]]></content>
+	<tabTrigger>iamaccesskey</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::AccessKey</description>
+</snippet>

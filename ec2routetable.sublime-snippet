@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"RouteTable" : {
+	"Properties" : {
+		"VpcId" : "String",
+		"Tags" : [ EC2 Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2routetable</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::RouteTable</description>
+</snippet>

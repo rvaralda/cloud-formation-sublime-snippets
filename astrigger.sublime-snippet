@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+"ASTrigger" : {
+	"Properties" : {
+		"AutoScalingGroupName" : "String",
+		"BreachDuration" : "String",
+		"Dimensions" : [ CloudWatch Dimension1, ... ],
+		"LowerBreachScaleIncrement" : "String",
+		"LowerThreshold" : "String",
+		"MetricName" : "String",
+		"Namespace" : "String",
+		"Period" : "String",
+		"Statistic" : "String",
+		"Unit" : "String",
+		"UpperBreachScaleIncrement" : "String",
+		"UpperThreshold" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>astrigger</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::AutoScaling::Trigger</description>
+</snippet>

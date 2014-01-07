@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::Or": [{condition}, {...}]
+]]></content>
+	<tabTrigger>fnor</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnor</description>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+"DNSRecord" : {
+	"Properties" : {
+		"AliasTarget" : AliasTarget,
+		"Comment" : "String",
+		"HostedZoneId" : "String",
+		"HostedZoneName" : "String",
+		"Name" : "String",
+		"Region" : "String",
+		"ResourceRecords" : [ "String" ],
+		"SetIdentifier" : "String",
+		"TTL" : "String",
+		"Type" : "String",
+		"Weight" : Integer
+	}
+}
+]]></content>
+	<tabTrigger>r53dnsrecord</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::Route53::RecordSet</description>
+</snippet>

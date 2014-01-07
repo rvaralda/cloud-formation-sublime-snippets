@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+"DB" : {
+	"Properties" :
+	{
+		"AllocatedStorage" : "String",
+		"AutoMinorVersionUpgrade" : Boolean,
+		"AvailabilityZone" : "String",
+		"BackupRetentionPeriod" : "String",
+		"DBInstanceClass" : "String",
+		"DBInstanceIdentifier" : "String",
+		"DBName" : "String",
+		"DBParameterGroupName" : "String",
+		"DBSecurityGroups" : [ "String", ... ],
+		"DBSnapshotIdentifier" : "String",
+		"DBSubnetGroupName" : "String",
+		"Engine" : "String",
+		"EngineVersion" : "String",
+		"Iops" : Number,
+		"LicenseModel" : "String",
+		"MasterUsername" : "String",
+		"MasterUserPassword" : "String",
+		"MultiAZ" : Boolean,
+		"Port" : "String",
+		"PreferredBackupWindow" : "String",
+		"PreferredMaintenanceWindow" : "String",
+		"SourceDBInstanceIdentifier" : "String",
+		"Tags" : [ Resource Tag, ..., ],
+		"VPCSecurityGroups" : [ "String", ... ]
+	}
+}
+]]></content>
+	<tabTrigger>rdsdbintance</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::RDS::DBInstance</description>
+</snippet>

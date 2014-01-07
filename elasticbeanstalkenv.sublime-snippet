@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+"ElasticBeanstalkEnv" : {
+	"Properties" : {
+		"ApplicationName" : "String",
+		"CNAMEPrefix" : "String",
+		"Description" : "String",
+		"EnvironmentName" : "String",
+		"OptionSettings" : [ OptionSettings, ... ],
+		"OptionsToRemove" : [ OptionSettings, ... ],
+		"SolutionStackName" : "String",
+		"TemplateName" : "String",
+		"Tier" : Environment Tier,
+		"VersionLabel" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>elasticbeanstalkenv</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::ElasticBeanstalk::Environment</description>
+</snippet>

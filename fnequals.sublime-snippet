@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::Equals" : ["value_1", "value_2"]
+]]></content>
+	<tabTrigger>fnequals</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnequals</description>
+</snippet>

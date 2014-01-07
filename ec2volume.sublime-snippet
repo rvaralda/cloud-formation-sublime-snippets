@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"Volume" : {
+	"Properties" : {
+		"AvailabilityZone" : "String",
+		"Iops" : Number,
+		"Size" : "String",
+		"SnapshotId" : "String",
+		"Tags" : [ EC2 Tag, ... ],
+		"VolumeType" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2volume</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::Volume</description>
+</snippet>

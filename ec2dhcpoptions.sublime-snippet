@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"DhcpOptions" : {
+	"Properties" : {
+		"DomainName" : "String",
+		"DomainNameServers" : [ "String", ... ],
+		"NetbiosNameServers" : [ "String", ... ],
+		"NetbiosNodeType" : Number,
+		"NtpServers" : [ "String", ... ],
+		"Tags" : [ EC2 Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2dhcpoptions</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::DHCPOptions</description>
+</snippet>

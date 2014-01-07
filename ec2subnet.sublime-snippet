@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"Subnet" : {
+	"Properties" : {
+		"AvailabilityZone" : "String",
+		"CidrBlock" : "String",
+		"Tags" : [ EC2 Tag, ... ],
+		"VpcId" : { "Ref" : "String" }
+	}
+}
+]]></content>
+	<tabTrigger>ec2subnet</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::Subnet</description>
+</snippet>

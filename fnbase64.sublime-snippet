@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{ "Fn::Base64" : valueToEncode }
+]]></content>
+	<tabTrigger>fnbase64</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnbase64</description>
+</snippet>

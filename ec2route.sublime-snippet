@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"Route" : {
+	"Properties" : {
+		"DestinationCidrBlock" : "String",
+		"GatewayId" : "String",
+		"InstanceId" : "id-1a2b3c4d",
+		"NetworkInterfaceId" : "String",
+		"RouteTableId" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2route</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::Route</description>
+</snippet>

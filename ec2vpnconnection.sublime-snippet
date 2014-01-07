@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"VPNConnection" : {
+	"Properties" : {
+		"Type" : "String",
+		"CustomerGatewayId" : GatewayID,
+		"StaticRoutesOnly" : Boolean,
+		"Tags" : [ Resource Tag, ... ],
+		"VpnGatewayId" : GatewayID
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpnconnection</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPNConnection</description>
+</snippet>

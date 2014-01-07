@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"CFCustomResource" : {
+	"Version" : "1.0",
+	"Properties" : {
+		"ServiceToken" : "String",
+	}
+}
+]]></content>
+	<tabTrigger>cfcustomresource</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::CloudFormation::CustomResource</description>
+</snippet>

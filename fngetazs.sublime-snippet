@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::GetAZs" : "region"
+]]></content>
+	<tabTrigger>fngetazs</tabTrigger>
+	<scope>source.json</scope>
+	<description>fngetazs</description>
+</snippet>

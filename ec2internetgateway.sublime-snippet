@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+"InternetGateway" : {
+	"Properties" : {
+		"Tags" : [ { "Key" : "keyname1", "Value" : "value1" }, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2internetgateway</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::InternetGateway</description>
+</snippet>

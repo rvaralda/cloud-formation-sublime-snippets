@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"IAMInstanceProfile": {
+	"Properties": {
+		"Path": "String",
+		"Roles": [ IAM Roles ]
+	}
+}
+]]></content>
+	<tabTrigger>iaminstanceprofile</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::InstanceProfile</description>
+</snippet>

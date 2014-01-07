@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+"EC2Instance" : {
+	"Properties" : {
+		"AvailabilityZone" : "String",
+		"BlockDeviceMappings" : [ EC2 Block Device Mapping, ... ],
+		"DisableApiTermination" : Boolean,
+		"EbsOptimized" : Boolean,
+		"IamInstanceProfile" : "String",
+		"ImageId" : "String",
+		"InstanceType" : "String",
+		"KernelId" : "String",
+		"KeyName" : "String",
+		"Monitoring" : Boolean,
+		"NetworkInterfaces" : [ EC2 Network Interface, ... ],
+		"PlacementGroupName" : "String",
+		"PrivateIpAddress" : "String",
+		"RamdiskId" : "String",
+		"SecurityGroupIds" : [ "String", ... ],
+		"SecurityGroups" : [ "String", ... ],
+		"SourceDestCheck" : Boolean,
+		"SubnetId" : "String",
+		"Tags" : [ EC2 Tag, ... ],
+		"Tenancy" : "String",
+		"UserData" : "String",
+		"Volumes" : [ EC2 MountPoint, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2instance</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::Instance</description>
+</snippet>

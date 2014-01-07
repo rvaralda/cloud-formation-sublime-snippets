@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"IAMUserToGroupAddition" : {
+	"Properties": {
+		"GroupName": "String",
+		"Users": [ User1, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>iamusertogroupaddition</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::UserToGroupAddition</description>
+</snippet>

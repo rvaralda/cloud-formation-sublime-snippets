@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"AWSRegionArch2AMI" : {
+	"us-east-1" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "ami-1a2b3c4d" },
+	"us-west-2" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "NOT_YET_SUPPORTED" },
+	"us-west-1" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "NOT_YET_SUPPORTED" },
+	"eu-west-1" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "NOT_YET_SUPPORTED" },
+	"ap-southeast-1" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "NOT_YET_SUPPORTED" },
+	"ap-northeast-1" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "NOT_YET_SUPPORTED" },
+	"sa-east-1" : { "32" : "ami-1a2b3c4d", "64" : "ami-1a2b3c4d", "64HVM" : "NOT_YET_SUPPORTED" }
+}
+]]></content>
+	<tabTrigger>awsregionarch2ami</tabTrigger>
+	<scope>source.json</scope>
+	<description>awsregionarch2ami</description>
+</snippet>

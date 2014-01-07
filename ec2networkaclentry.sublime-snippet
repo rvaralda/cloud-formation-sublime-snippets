@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+"NetworkAclEntry" : {
+	"Properties" : {
+		"CidrBlock" : "String",
+		"Egress" : Boolean,
+		"Icmp" : EC2 ICMP,
+		"NetworkAclId" : "String",
+		"PortRange" : EC2 PortRange,
+		"Protocol" : Integer,
+		"RuleAction" : "String",
+		"RuleNumber" : Integer
+	}
+}
+]]></content>
+	<tabTrigger>ec2networkaclentry</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::NetworkAclEntry</description>
+</snippet>

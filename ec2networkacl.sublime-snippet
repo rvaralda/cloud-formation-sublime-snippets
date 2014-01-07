@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"NetworkAcl" : {
+	"Properties" : {
+		"Tags" : [ EC2 Tags ]
+		"VpcId" : "String",
+	}
+}
+]]></content>
+	<tabTrigger>ec2networkacl</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::NetworkAcl</description>
+</snippet>

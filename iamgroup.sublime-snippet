@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"IAMGroup" : {
+	"Properties": {
+		"Path": "String",
+		"Policies": [ Policy1, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>iamgroup</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::Group</description>
+</snippet>

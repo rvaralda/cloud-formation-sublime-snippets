@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"SQSQueue" : {
+	"Properties": {
+		"DelaySeconds": Integer,
+		"MaximumMessageSize": Integer,
+		"MessageRetentionPeriod": Integer,
+		"QueueName": "String",
+		"ReceiveMessageWaitTimeSeconds": Integer,
+		"VisibilityTimeout": Integer
+	}
+}
+]]></content>
+	<tabTrigger>sqsqueue</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::SQS::Queue</description>
+</snippet>

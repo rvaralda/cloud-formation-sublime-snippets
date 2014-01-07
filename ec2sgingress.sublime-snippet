@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+"SGIngress": {
+	"Properties" : {
+		"GroupName" : "String"
+		"GroupId" : "String"
+		"IpProtocol" : "String"
+		"CidrIp" : "String"
+		"SourceSecurityGroupName" : "String"
+		"SourceSecurityGroupId" : "String"
+		"SourceSecurityGroupOwnerId" : "String"
+		"FromPort" : Number
+		"ToPort" : Number
+	}
+}
+]]></content>
+	<tabTrigger>ec2sgingress</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::SecurityGroupIngress</description>
+</snippet>

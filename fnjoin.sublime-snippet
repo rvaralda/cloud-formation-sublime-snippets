@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::Join" : [ "delimiter", [ comma-delimited list of values ] ]
+]]></content>
+	<tabTrigger>fnjoin</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnjoin</description>
+</snippet>

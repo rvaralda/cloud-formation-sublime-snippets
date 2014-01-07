@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"AttachGateway" : {
+	"Properties" : {
+		"InternetGatewayId" : "String",
+		"VpcId" : "String",
+		"VpnGatewayId" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpcattachgateway</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPCGatewayAttachment</description>
+</snippet>

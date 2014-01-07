@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"DBSecurityGroup": {
+	"Properties" :
+	{
+		"EC2VpcId" : { "Ref" : "myVPC" },
+		"DBSecurityGroupIngress" : [ RDS Security Group Rule object 1, ... ],
+		"GroupDescription" : "String",
+		"Tags" : [ Resource Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>rdsdbsecuritygroup</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::RDS::DBSecurityGroup</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"IAMRole": {
+	"Properties": {
+		"AssumeRolePolicyDocument": { JSON },
+		"Path": "String",
+		"Policies": [ IAM policy, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>iamrole</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::IAM::Role</description>
+</snippet>

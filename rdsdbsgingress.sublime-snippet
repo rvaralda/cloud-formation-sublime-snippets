@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"DBSGIngress": {
+	"Properties" : {
+		"CIDRIP": "String",
+		"DBSecurityGroupName": "String",
+		"EC2SecurityGroupId": "String",
+		"EC2SecurityGroupName": "String",
+		"EC2SecurityGroupOwnerId": "String"
+	}
+}
+]]></content>
+	<tabTrigger>rdsdbsgingress</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::RDS::DBSecurityGroupIngress</description>
+</snippet>

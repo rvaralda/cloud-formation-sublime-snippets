@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"MountPoint" : {
+	"Properties" : {
+		"Device" : "String",
+		"InstanceId" : "id-1a2b3c4d",
+		"VolumeId" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2volumeattachment</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VolumeAttachment</description>
+</snippet>

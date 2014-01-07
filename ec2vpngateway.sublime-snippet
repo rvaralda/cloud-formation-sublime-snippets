@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"VPNGateway" : {
+	"Properties" : {
+		"Type" : "String",
+		"Tags" : [ Tag1, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpngateway</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPNGateway</description>
+</snippet>

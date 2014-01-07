@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"VPCDHCPOptionsAssociation" : {
+	"Properties" : {
+		"DhcpOptionsId" : "String",
+		"VpcId" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpcdhcpoptions</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPCDHCPOptionsAssociation</description>
+</snippet>

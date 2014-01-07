@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+"ElasticLoadBalancer" : {
+	"Properties": {
+		"AppCookieStickinessPolicy" : [ AppCookieStickinessPolicy, ...
+		],
+		"AvailabilityZones" : [ "String", ... ],
+		"CrossZone" : Boolean,
+		"HealthCheck" : HealthCheck,
+		"Instances" : [ "String", ... ],
+		"LBCookieStickinessPolicy" : [ LBCookieStickinessPolicy, ... ],
+		"LoadBalancerName" : "String",
+		"Listeners" : [ Listener, ... ],
+		"Policies" : [ ElasticLoadBalancing Policy, ... ],
+		"Scheme" : "String",
+		"SecurityGroups" : [ Security Group, ... ],
+		"Subnets" : [ "String", ... ]
+	}
+}
+]]></content>
+	<tabTrigger>elb</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::ElasticLoadBalancing::LoadBalancer</description>
+</snippet>

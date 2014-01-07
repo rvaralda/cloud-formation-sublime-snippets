@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"ElasticBeanstalkApp" : {
+	"Properties" : {
+		"ApplicationName" : "String",
+		"ApplicationVersions" : [ ApplicationVersion, ... ],
+		"ConfigurationTemplates" : [ ConfigurationTemplate, ... ],
+		"Description" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>elasticbeanstalkapp</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::ElasticBeanstalk::Application</description>
+</snippet>

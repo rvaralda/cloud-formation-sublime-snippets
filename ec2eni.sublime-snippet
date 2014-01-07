@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+"ENI" : {
+	"Properties" : {
+		"Description" : "String",
+		"GroupSet" : [ "String", ... ],
+		"PrivateIpAddress" : "String",
+		"PrivateIpAddresses" : [ PrivateIpAddressSpecification, ... ],
+		"SecondaryPrivateIpAddressCount" : Integer,
+		"SourceDestCheck" : Boolean,
+		"SubnetId" : "String",
+		"Tags" : [ EC2 Tags, ...],
+	}
+}
+]]></content>
+	<tabTrigger>ec2eni</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::NetworkInterface</description>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+"LaunchConfig" : {
+	"Properties" : {
+		"AssociatePublicIpAddress" : Boolean,
+		"BlockDeviceMappings" : [ BlockDeviceMapping, ... ],
+		"EbsOptimized" : Boolean,
+		"IamInstanceProfile" : "String",
+		"ImageId" : "String",
+		"InstanceMonitoring" : Boolean,
+		"InstanceType" : "String",
+		"KernelId" : "String",
+		"KeyName" : "String",
+		"RamDiskId" : "String",
+		"SecurityGroups" : [ SecurityGroup, ... ],
+		"SpotPrice" : "String",
+		"UserData" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>aslaunchconfig</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::AutoScaling::LaunchConfiguration</description>
+</snippet>

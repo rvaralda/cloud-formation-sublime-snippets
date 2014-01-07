@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+"CFDistribution" : {
+	"Properties" : {
+		"DistributionConfig" : DistributionConfig
+	}
+}
+]]></content>
+	<tabTrigger>cfdistribution</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::CloudFront::Distribution</description>
+</snippet>

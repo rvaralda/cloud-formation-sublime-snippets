@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+"CFAuth" : {
+		""String"" : {
+			"accessKeyId" : "String",
+			"buckets" : [ "String", ... ],
+			"password" : "String",
+			"secretKey" : "String",
+			"type" : "String",
+			"uris" : [ "String", ... ],
+			"username" : "String",
+			"roleName" : "String"
+		},
+		...
+	}
+}
+]]></content>
+	<tabTrigger>cfauth</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::CloudFormation::Authentication</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"SubnetRouteTableAssociation" : {
+	"Properties" : {
+		"RouteTableId" : "String",
+		"SubnetId" : "String",
+	}
+}
+]]></content>
+	<tabTrigger>ec2subnetroutetableassociation</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::SubnetRouteTableAssociation</description>
+</snippet>

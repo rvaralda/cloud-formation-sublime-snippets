@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::Not": [{condition}]
+]]></content>
+	<tabTrigger>fnnot</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnnot</description>
+</snippet>

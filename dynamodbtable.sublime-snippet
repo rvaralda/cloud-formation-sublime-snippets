@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+"DynamoDBTable" : {
+	"Properties" : {
+		"KeySchema" : { DynamoDB Primary Key },
+		"ProvisionedThroughput" : { DynamoDB Provisioned Throughput },
+		"TableName" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>dynamodbtable</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::DynamoDB::Table</description>
+</snippet>

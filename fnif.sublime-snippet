@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"Fn::If": [condition_name, value_if_true, value_if_false]
+]]></content>
+	<tabTrigger>fnif</tabTrigger>
+	<scope>source.json</scope>
+	<description>fnif</description>
+</snippet>

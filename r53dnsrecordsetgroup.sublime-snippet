@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"DNSRecordSetGroup" :  {
+	"Properties" : {
+		"HostedZoneId" : "String",
+		"HostedZoneName" : "String",
+		"RecordSets" : [ RecordSet1, ... ],
+		"Comment" : "String",
+	}
+}
+]]></content>
+	<tabTrigger>r53dnsrecordsetgroup</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::Route53::RecordSetGroup</description>
+</snippet>

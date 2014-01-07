@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"EIP" : {
+	"Properties" : {
+		"InstanceId" : "id-1a2b3c4d",
+		"Domain" : "String"
+	}
+}
+]]></content>
+	<tabTrigger>ec2eip</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::EIP</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+"VPC" : {
+	"Properties" : {
+		"CidrBlock" : "String",
+		"EnableDnsSupport" : Boolean,
+		"EnableDnsHostnames" : Boolean,
+		"InstanceTenancy" : "String",
+		"Tags" : [ EC2 Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>ec2vpc</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::EC2::VPC</description>
+</snippet>

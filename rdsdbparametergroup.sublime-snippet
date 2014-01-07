@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"DBParameterGroup" : {
+	"Properties" : {
+		"Description" : "String",
+		"Family" : "String",
+		"Parameters" : DBParameters,
+		"Tags" : [ Resource Tag, ... ]
+	}
+}
+]]></content>
+	<tabTrigger>rdsdbparametergroup</tabTrigger>
+	<scope>source.json</scope>
+	<description>AWS::RDS::DBParameterGroup</description>
+</snippet>
