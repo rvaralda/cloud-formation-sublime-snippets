@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
 "SQSQueue" : {
+	"Type" : "AWS::SQS::Queue",
 	"Properties": {
 		"DelaySeconds": Integer,
 		"MaximumMessageSize": Integer,
